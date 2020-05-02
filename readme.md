@@ -33,3 +33,8 @@
      }
  }
 ~~~
+#20200502
+##springboot中config的配置
+1.类上增加@ConfigurationProperties(prefix = "person", ignoreUnknownFields = true)
+  可以自动扫描到类注释上
+2.value注解,获取配置文件的属性信息
