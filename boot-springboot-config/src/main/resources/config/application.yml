@@ -6,5 +6,5 @@ spring:
   profiles:
     active: dev
   config:
-    additional-location: ${user_home}
+    additional-location: ${user_home}/
 

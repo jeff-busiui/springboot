@@ -2,4 +2,8 @@ server:
   port: 7001
 logging:
   level:
-    root: debug
+    root: info
+spring:
+  # 引入国际化
+  messages:
+    basename: i18n.login

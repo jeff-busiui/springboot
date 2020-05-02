@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head> <title>Good Thymes Virtual Grocery</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+</head>
+
+<body>
+
+<h1>登录页222</h1>
+<form th:action="@{/userlogin}" method="post">
+    <p style="color:red" th:text="${msg}" ></p>
+<input name="username" type="text" th:placeholder="#{login.userName}" />
+<input name="password" type="password" th:placeholder="#{login.password}" />
+<!-- 切换语言 -->
+<a th:href="@{/login.html(l='zh_CN')}" >中文</a>
+<a th:href="@{/login.html(l='en_US')}" >英文</a>
+<br/>
+<button th:text="#{login.btn}" type="submit"  >登录</button>
+</form>
+</body>
+
+</html>
