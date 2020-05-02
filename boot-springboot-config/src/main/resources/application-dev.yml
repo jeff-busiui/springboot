@@ -1,2 +1,9 @@
 server:
   port: 8001
+
+person:
+  name: 张三
+  age: 18
+  dataMap:
+    k1: k1value
+    ke: k2value
