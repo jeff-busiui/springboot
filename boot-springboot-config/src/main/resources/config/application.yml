@@ -1,10 +1,11 @@
 server:
-  port: 8006
+  port: 9003
   servlet:
     context-path: "/test/ku"
 spring:
-  profiles:
-    active: dev
   config:
     additional-location: ${user_home}/
 
+logging:
+  level:
+    root: info

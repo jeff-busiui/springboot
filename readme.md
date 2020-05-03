@@ -127,3 +127,6 @@ public class MyMvcConfig implements WebMvcConfigurer {
     }
 ```
 6.自定义异常类和异常参数信息，已完成
+
+#20200503
+##springboot的脑图见github地址：[脑图地址](https://github.com/jeff-busiui/java-docs)
