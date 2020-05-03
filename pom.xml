@@ -12,6 +12,7 @@
         <module>boot-springboot-config</module>
         <module>boot-springboot-restfulcrud</module>
         <module>boot-springboot-jdbc</module>
+        <module>boot-springboot-jpa</module>
     </modules>
     <!-- 统一管理jar包版本 -->
     <properties>
