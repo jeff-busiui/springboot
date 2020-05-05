@@ -14,6 +14,9 @@
         <module>boot-springboot-jdbc</module>
         <module>boot-springboot-jpa</module>
         <module>boot-springboot-redis</module>
+        <module>boot-springboot-start</module>
+        <module>boot-springboot-starter-autoconfig</module>
+        <module>boot-springbooot-mystarter-test</module>
     </modules>
     <!-- 统一管理jar包版本 -->
     <properties>

@@ -1,0 +1,6 @@
+server:
+  port: 6001
+atguigu:
+  myauto:
+    prefix: "guigui_"
+    endfix: "sunbaojin"
